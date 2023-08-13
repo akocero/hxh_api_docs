@@ -59,7 +59,7 @@ Check your email for verification process.
 #### Get all characters
 Endpoint to retrieve information from all characters.
 ```
-/api/v1/characters
+GET /api/v1/characters
 ```
 
 Response
@@ -93,7 +93,7 @@ Response
 
 #### Get single character
 ```
-/api/v1/characters/1
+GET /api/v1/characters/1
 ```
 
 Response
