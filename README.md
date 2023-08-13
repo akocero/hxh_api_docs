@@ -1,4 +1,5 @@
 
+
 # Hunter x Hunter API
 
 ## Documentation
@@ -119,5 +120,51 @@ Response
          "state":"alive",
          "relatives":[]
       }
+}
+```
+
+#### Get characters paginated response
+```
+GET /api/v1/characters?page=1&limit=2
+```
+
+Response
+
+```json
+{
+   "status":"success",
+   "statusCode":200,
+   "statusText":"OK",
+   "message":"Data retrieved successfully.",
+   "data":[
+      {
+         "_id":"64d6ffcd51403af1e30e7663",
+         "name":"chrollo lucilfer",
+         "also_known_as":["Boss"],
+         "gender":"male",
+         "nen_type":["Specialization"],
+         "image":[],
+         "images":[],
+         "abilities":[],
+         "japanese_name":"クロロ゠ルシルフル",
+         "affiliations":[],
+         "professions":["Leader of the Phantom"],
+         "state":"alive",
+         "relatives":[],
+         "createdAt":"2023-08-12T03:43:09.890Z",
+         "updatedAt":"2023-08-12T03:43:09.890Z"
+      }
+   ],
+   "_paginate":{
+      "results":1,
+      "total":1,
+      "from":1,
+      "to":1,
+      "page_size":2,
+      "current_page":1,
+      "next_page":null,
+      "previous_page":null,
+      "last_page":1
+   }
 }
 ```
