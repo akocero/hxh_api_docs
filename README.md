@@ -147,7 +147,7 @@ Response
    "statusCode":200,
    "statusText":"OK",
    "message":"Data retrieved successfully.",
-   "data":[...],
+   "data":[],
    "_paginate":{
       "results":1,
       "total":1,
