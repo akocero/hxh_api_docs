@@ -163,6 +163,7 @@ Response
 }
 ```
 
+## Group Endpoints
 #### Get single group
 ```
 GET /api/v1/groups/1
