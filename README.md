@@ -7,7 +7,7 @@
 Welcome to the Hunter X Hunter API! This guide is your key to exploring the world of HTTP requests in the Hunter X Hunter universe. Before you embark on your data-gathering quest, take a moment to familiarize yourself with this documentation. Let your API requests be as potent as Nen abilities – sharp as Kurapika's chains and quick as Killua's lightning!
 
 ## Base URL
-https://hxh-db.onrender.com
+https://hxh-api.cyclic.cloud
 
 ## Rate Limit
 While this Hunter X Hunter API is freely accessible without authentication, a simple key generation process is implemented to ensure responsible usage. To safeguard against misuse, a daily rate limit of 10,000 requests is set in place. Should you reach this limit, a 429 status code will temporarily suspend access for 24 hours, preserving the integrity of the API environment.
