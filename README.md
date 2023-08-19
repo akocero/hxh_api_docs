@@ -1,5 +1,6 @@
 
 
+
 # Hunter x Hunter API
 
 ## Documentation
@@ -161,3 +162,66 @@ Response
    }
 }
 ```
+
+#### Get single group
+```
+GET /api/v1/groups/1
+```
+
+Response
+
+```json
+{
+   "status":"success",
+   "statusCode":200,
+   "statusText":"OK",
+   "message":"Data retrieved successfully.",
+   "data":[
+      {
+         "_id":"64d88505f5d42e977fffa4fb",
+         "name":"Phantom Troupe",
+         "also_known_as":[
+            "Gen'ei Ryodan",
+            "Spiders"
+         ],
+         "image":[
+            {
+               "_id":"64d8b8a4fd527f994bfdc322",
+               "public_id":"hxh_api_oop/wxbktua0fo5aix2sdnqk",
+               "secure_url":"https://res.cloudinary.com/erro/image/upload/v1691924647/hxh_api_oop/wxbktua0fo5aix2sdnqk.jpg",
+               "width":728,
+               "height":485
+            }
+         ],
+         "images":[],
+         "leaders":[
+            {
+               "_id":"64d6ffcd51403af1e30e7663",
+               "name":"chrollo lucilfer"
+            }
+         ],
+         "status":"active",
+         "classification":"thieves",
+         "createdAt":"2023-08-13T07:23:49.945Z",
+         "updatedAt":"2023-08-13T12:07:33.912Z"
+      }
+   ]
+}
+```
+
+#### Get all groups
+Endpoint to retrieve information from all groups.
+```
+GET /api/v1/groups
+```
+
+Response
+
+```json
+{
+   "status":"success",
+   "statusCode":200,
+   "statusText":"OK",
+   "message":"Data retrieved successfully.",
+   "data":[]
+}
