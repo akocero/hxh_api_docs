@@ -21,7 +21,8 @@ Endpoint to register and generate api key.
 POST /api/v1/guest/register
 ```
 
-Body  **Note: the email you provided must be active or valid**
+Body  
+**Note: the email you provided must be active or valid**
 ```json
 {
    "email":"johndoe@gmail.com",
