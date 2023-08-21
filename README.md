@@ -130,7 +130,7 @@ Response
    "statusCode":200,
    "statusText":"OK",
    "message":"Data retrieved successfully.",
-   "data":[]
+   "data":[...]
 }
 ```
 
@@ -224,5 +224,27 @@ Response
    "statusCode":200,
    "statusText":"OK",
    "message":"Data retrieved successfully.",
-   "data":[]
+   "data":[...]
 }
+```
+
+## Get random 
+
+Endpoint to retrieve one random data in every endpoint.
+```
+GET /api/v1/[endpoint]/random
+```
+
+Response
+
+```json
+{
+   "status":"success",
+   "statusCode":200,
+   "statusText":"OK",
+   "message":"Data retrieved successfully.",
+   "data":{...}
+}
+```
+
+
