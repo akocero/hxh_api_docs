@@ -62,7 +62,7 @@ Check your email for verification process.
 
 #### Get single character
 ```
-GET /api/v1/characters/1
+GET /api/v1/characters/1?api_key=[generated api key]
 ```
 
 Response
@@ -120,7 +120,7 @@ Response
 #### Get all characters
 Endpoint to retrieve information from all characters.
 ```
-GET /api/v1/characters
+GET /api/v1/characters?api_key=[generated api key]
 ```
 
 Response
@@ -138,7 +138,7 @@ Response
 
 #### Get characters paginated response
 ```
-GET /api/v1/characters?page=1&limit=2
+GET /api/v1/characters?api_key=[generated api key]&page=1&limit=2
 ```
 
 Response
@@ -167,7 +167,7 @@ Response
 ## Group Endpoints
 #### Get single group
 ```
-GET /api/v1/groups/1
+GET /api/v1/groups/1?api_key=[generated api key]
 ```
 
 Response
@@ -214,7 +214,7 @@ Response
 #### Get all groups
 Endpoint to retrieve information from all groups.
 ```
-GET /api/v1/groups
+GET /api/v1/groups?api_key=[generated api key]
 ```
 
 Response
@@ -233,7 +233,7 @@ Response
 
 Endpoint to retrieve one random data in every endpoint.
 ```
-GET /api/v1/[endpoint]/random
+GET /api/v1/[endpoint]/random?api_key=[generated api key]
 ```
 
 Response
